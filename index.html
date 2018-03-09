@@ -110,7 +110,7 @@
   }
 
   input[type=email] {
-    width: 230px;
+    width: 56%;
     height: 18px;
     padding: 21px 20px;
     border-left: 1px solid #E4E4E4;
@@ -170,9 +170,61 @@
 
   @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
 
-    div {
+    div#tease {
       width: 80%;
     }
+
+    div#tease h1 {
+      font-size: 34px;
+      line-height: 48px;
+    }
+
+    div#tease p#description {
+      font-size: 20px;
+      line-height: 34px;
+      margin-top: 20px;
+    }
+
+    ul#nav-left li#tag {
+      display: none;
+    }
+
+    div#tease p#coming-soon {
+      margin-top: 24px;
+      font-size: 16px;
+      line-height: 26px;
+    }
+
+    div#tease p#coming-soon span {
+      display: block;
+    }
+
+    form {
+      width: 100%;
+      margin: 14px auto;
+      display: block;
+    }
+
+    input[type=email] {
+      width: 42%;
+      font-size: 16px;
+      padding-left: 7%;
+      padding-right: 7%;
+    }
+
+    input[type=submit] {
+      width: 43%;
+      font-size: 16px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    a#learn {
+      width: 201px;
+      font-size: 16px;
+      margin-top: 26px
+    }
+
 
   }
 
@@ -190,11 +242,9 @@
     </ul>
   </div>
   <div id="tease">
-    <h1>Masternode investing in 1 click – seriously.</h1>
-    <p id="description">We're Metanode. Think of us like the Coinbase for buying and selling masternodes. </p>
+    <h1>Simple masternode investing.</h1>
+    <p id="description">We're Metanode – the Coinbase for hosting masternodes. </p>
     <p id="coming-soon"><span>We’re coming soon.</span> Sign up below to get updates.</p>
-
-    <!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup">
     <form action="https://metanode.us12.list-manage.com/subscribe/post?u=75079e2c34c839babe52ba6aa&amp;id=fe65370012" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
